@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F11055327FF3E6C0024DE7D /* Sahil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F11055227FF3E6C0024DE7D /* Sahil.swift */; };
 		3FF08F7627FC95BF00C8E970 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF08F7527FC95BF00C8E970 /* AppDelegate.swift */; };
 		3FF08F7827FC95BF00C8E970 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3FF08F7727FC95BF00C8E970 /* GameScene.sks */; };
 		3FF08F7A27FC95BF00C8E970 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3FF08F7927FC95BF00C8E970 /* Actions.sks */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F11055227FF3E6C0024DE7D /* Sahil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sahil.swift; sourceTree = "<group>"; };
 		3FF08F7227FC95BE00C8E970 /* Platformer Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Platformer Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF08F7527FC95BF00C8E970 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FF08F7727FC95BF00C8E970 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F11055127FF3E4F0024DE7D /* Sahil */ = {
+			isa = PBXGroup;
+			children = (
+				3F11055227FF3E6C0024DE7D /* Sahil.swift */,
+			);
+			path = Sahil;
+			sourceTree = "<group>";
+		};
 		3FF08F6927FC95BE00C8E970 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +76,7 @@
 				3FF08F7F27FC95BF00C8E970 /* Main.storyboard */,
 				3FF08F8227FC95C900C8E970 /* Assets.xcassets */,
 				3FF08F8427FC95C900C8E970 /* Info.plist */,
+				3F11055127FF3E4F0024DE7D /* Sahil */,
 			);
 			path = "Platformer Game";
 			sourceTree = "<group>";
@@ -144,6 +155,7 @@
 				3FF08F7C27FC95BF00C8E970 /* GameScene.swift in Sources */,
 				3FF08F7E27FC95BF00C8E970 /* GameViewController.swift in Sources */,
 				3FF08F7627FC95BF00C8E970 /* AppDelegate.swift in Sources */,
+				3F11055327FF3E6C0024DE7D /* Sahil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
